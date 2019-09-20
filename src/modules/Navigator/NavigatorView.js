@@ -15,7 +15,7 @@ const NavigatorView = () => {
     return (
       <View>
         <Text>Musicdd</Text>
-        <Button onPress={this.openLink()}>Test</Button>
+        <Button onPress={this.openLink}>Test</Button>
       </View>
     );
   }
@@ -31,8 +31,6 @@ const NavigatorView = () => {
           preferredControlTintColor: 'white',
           readerMode: false,
           animated: true,
-          modalPresentationStyle: 'overFullScreen',
-          modalTransitionStyle: 'partialCurl',
           modalEnabled: true,
           // Android Properties
           showTitle: true,
