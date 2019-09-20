@@ -31,6 +31,8 @@ target 'DPrint' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'RNInAppBrowser', :path => '../node_modules/react-native-inappbrowser-reborn'
+
   target 'DPrintTests' do
     inherit! :search_paths
     # Pods for testing
