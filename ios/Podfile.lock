@@ -79,6 +79,8 @@ PODS:
     - React-Core (= 0.60.5)
   - React-RCTWebSocket (0.60.5):
     - React-Core (= 0.60.5)
+  - RNI18n (2.0.15):
+    - React
   - yoga (0.60.5.React)
 
 DEPENDENCIES:
@@ -102,6 +104,7 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
+  - RNI18n (from `../node_modules/react-native-i18n`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -149,6 +152,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   React-RCTWebSocket:
     :path: "../node_modules/react-native/Libraries/WebSocket"
+  RNI18n:
+    :path: "../node_modules/react-native-i18n"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -174,8 +179,9 @@ SPEC CHECKSUMS:
   React-RCTText: b074d89033583d4f2eb5faf7ea2db3a13c7553a2
   React-RCTVibration: 2105b2e0e2b66a6408fc69a46c8a7fb5b2fdade0
   React-RCTWebSocket: cd932a16b7214898b6b7f788c8bddb3637246ac4
+  RNI18n: e2f7e76389fcc6e84f2c8733ea89b92502351fd8
   yoga: 312528f5bbbba37b4dcea5ef00e8b4033fdd9411
 
-PODFILE CHECKSUM: 8caf5e2814148e96de72b9b916307b1590c52dab
+PODFILE CHECKSUM: 3f34dbb82d5d403134c15b38c67c6c83ca6206d6
 
 COCOAPODS: 1.8.0.beta.1
