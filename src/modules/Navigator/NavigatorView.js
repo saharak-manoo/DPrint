@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { Component } from 'react';
 import {
   View,
   Alert,
@@ -11,7 +11,12 @@ import {
 import InAppBrowser from 'react-native-inappbrowser-reborn'
 import { showMessage, hideMessage } from 'react-native-flash-message';
 
-const NavigatorView = () => {
+const AlbumsRoute = () => <Text>Albums</Text>;
+const RecentsRoute = () => <Text>Recents</Text>;
+
+export default class NavigatorView extends Component {
+  static displayName = "NavigationView";
+
   MusicRoute = () => {
     return (
       <View>
@@ -73,9 +78,6 @@ const NavigatorView = () => {
     }
   }
 
-  const AlbumsRoute = () => <Text>Albums</Text>;
-  const RecentsRoute = () => <Text>Recents</Text>;
-
   state = {
     index: 0,
     routes: [
@@ -88,18 +90,16 @@ const NavigatorView = () => {
   _handleIndexChange = index => this.setState({ index });
 
   _renderScene = BottomNavigation.SceneMap({
-    music: MusicRoute,
-    albums: AlbumsRoute,
-    recents: RecentsRoute,
+    music: this.MusicRoute,
+    albums: this.AlbumsRoute,
+    recents: this.RecentsRoute,
   });
 
-  return (
-    <BottomNavigation
+  render() {
+    return (<BottomNavigation
       navigationState={this.state}
       onIndexChange={this._handleIndexChange}
       renderScene={this._renderScene}
-    />
-  );
+    />);
+  }
 }
-
-export default NavigatorView
