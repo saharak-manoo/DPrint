@@ -11,7 +11,15 @@ export const styles = StyleSheet.create({
     color: '#278EF5'
   },
 
-  backgroundBlue: {
+  homeComponent: {
     backgroundColor: '#278EF5'
+  },
+
+  colorGreen: {
+    color: '#036A35'
+  },
+
+  addComponent: {
+    backgroundColor: '#036A35'
   }
 });

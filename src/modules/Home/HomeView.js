@@ -14,7 +14,7 @@ import {
 import InAppBrowser from 'react-native-inappbrowser-reborn'
 import { showMessage, hideMessage } from 'react-native-flash-message';
 import { styles } from '../../components/styles'
-import I18n from "../../components/i18n";
+import I18n from '../../components/i18n';
 
 export default class HomeView extends Component<Props> {
   constructor(props) {
@@ -37,7 +37,7 @@ export default class HomeView extends Component<Props> {
 
   headerApp = () => {
     return (
-      <Appbar.Header style={styles.backgroundBlue}>
+      <Appbar.Header style={styles.homeComponent}>
         <Appbar.Content
           title='Home'
         />

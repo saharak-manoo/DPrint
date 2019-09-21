@@ -3,8 +3,9 @@ import {
   BottomNavigation,
   Text,
 } from 'react-native-paper';
-import HomeView from '../Home/HomeView';
 import { styles } from '../../components/styles'
+import HomeView from '../Home/HomeView';
+import AddView from '../Add/AddView';
 
 const AlbumsRoute = () => <Text>Albums</Text>;
 const RecentsRoute = () => <Text>Recents</Text>;
@@ -16,7 +17,7 @@ export default class NavigatorView extends Component {
     index: 0,
     routes: [
       { key: 'home', title: 'Home', icon: 'home', color: '#278EF5' },
-      { key: 'add', title: 'Add', icon: 'add' },
+      { key: 'add', title: 'Add', icon: 'add', color: '#036A35' },
       { key: 'recents', title: 'Recents', icon: 'history' },
       { key: 'user', title: 'User', icon: 'people' },
     ],
@@ -26,7 +27,7 @@ export default class NavigatorView extends Component {
 
   _renderScene = BottomNavigation.SceneMap({
     home: HomeView,
-    add: this.AddRoute,
+    add: AddView,
     recents: this.RecentsRoute,
   });
 
