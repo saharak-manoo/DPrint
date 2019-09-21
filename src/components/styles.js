@@ -21,5 +21,13 @@ export const styles = StyleSheet.create({
 
   addComponent: {
     backgroundColor: '#036A35'
-  }
+  },
+
+  settingsComponent: {
+    backgroundColor: '#DA044B'
+  },
+
+  profileComponent: {
+    backgroundColor: '#167EFA'
+  },
 });
