@@ -12,8 +12,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <MenuProvider>
-        <FlashMessage position='top' />
         <NavigatorView />
+        <FlashMessage position='top' />
       </MenuProvider >
     );
   }

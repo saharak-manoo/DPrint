@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import {
   View,
   Alert,
-  StatusBar
+  StatusBar,
+  Dimensions,
+  FlatList
 } from 'react-native';
 import {
   Appbar,
@@ -16,13 +18,22 @@ import { showMessage, hideMessage } from 'react-native-flash-message';
 import { styles } from '../../components/styles'
 import I18n from '../../components/i18n';
 import ActionButton from 'react-native-action-button';
+const width = Dimensions.get('window').width;
+const height = Dimensions.get('window').height;
 
 export default class HomeView extends Component<Props> {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      refreshing: false,
+      groups: []
+    };
     this.goToAddGroupView = this.goToAddGroupView.bind(this);
   }
+
+  componentWillMount = () => {
+    this.state.groups = [{ name: 'Netfilx' }, { name: 'Spotify' }, { name: 'Disney +' }, { name: 'Apple TV +' }, { name: 'Apple Arcade' }]
+  };
 
   onSearch = () => {
     Alert.alert(
@@ -90,12 +101,46 @@ export default class HomeView extends Component<Props> {
     this.props.navigation.navigate('AddGroup');
   }
 
+  reloadCard = () => {
+    this.setState({ refreshing: false })
+  }
+
+  renderListCard = data => {
+    return (
+      <FlatList
+        style={{ flex: 1 }}
+        data={data}
+        showsVerticalScrollIndicator={false}
+        extraData={this.state}
+        refreshing={this.state.refreshing}
+        onRefresh={() => this.reloadCard()}
+        renderItem={({ item, index }) => {
+          return (
+            <View key={index} style={styles.card}>
+              <View style={{ width: 50, height: 50, backgroundColor: '#FB3718' }}>
+                <Text>{item.name}</Text>
+              </View>
+              <View style={{ width: 50, height: 50, backgroundColor: '#F4F3F3' }}>
+                <Text>{item.name}</Text>
+              </View>
+            </View>
+          );
+        }
+        }
+        keyExtractor={item => item.name}
+      />
+    )
+  }
+
   render() {
     return (
       <View style={{ flex: 1 }}>
         {this.headerApp()}
         <StatusBar barStyle='light-content' />
-        <Button
+        <View style={styles.listCard}>
+          {this.renderListCard(this.state.groups)}
+        </View>
+        {/* <Button
           onPress={() => {
             showMessage({
               message: 'Hello World',
@@ -104,7 +149,7 @@ export default class HomeView extends Component<Props> {
             });
           }}
           title='Request Details'
-          color='#841584'
+          color='#000'
         />
         <Text>Home</Text>
         <Button onPress={this.openInAppBrowser}>Test</Button>
@@ -116,7 +161,7 @@ export default class HomeView extends Component<Props> {
           type='error'
         >
           Email address is invalid!
-        </HelperText>
+        </HelperText> */}
         <ActionButton
           buttonColor='#17E87C'
           onPress={this.goToAddGroupView}
