@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import NavigatorView from './Navigator/NavigatorView';
 import { Appbar } from 'react-native-paper';
 import { MenuProvider } from "react-native-popup-menu";
+import FlashMessage from "react-native-flash-message";
 
 const App = () => {
   _goBack = () => alert('Went back');
@@ -21,6 +22,7 @@ const App = () => {
         <Appbar.Action icon="search" onPress={this._onSearch} />
         <Appbar.Action icon="more-vert" onPress={this._onMore} />
       </Appbar.Header>
+      <FlashMessage position="top" />
       <NavigatorView />
     </MenuProvider>
   );

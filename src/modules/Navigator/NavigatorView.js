@@ -9,11 +9,24 @@ import {
   Button
 } from 'react-native-paper';
 import InAppBrowser from 'react-native-inappbrowser-reborn'
+import { showMessage, hideMessage } from 'react-native-flash-message';
 
 const NavigatorView = () => {
   MusicRoute = () => {
     return (
       <View>
+        <Button
+          onPress={() => {
+            /* HERE WE GONE SHOW OUR FIRST MESSAGE */
+            showMessage({
+              message: 'Hello World',
+              description: 'This is our second message',
+              type: 'success',
+            });
+          }}
+          title='Request Details'
+          color='#841584'
+        />
         <Text>Musicdd</Text>
         <Button onPress={this.openLink}>Test</Button>
       </View>
