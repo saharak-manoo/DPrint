@@ -5,6 +5,7 @@ import {
   StatusBar
 } from 'react-native';
 import {
+  Appbar,
   Text,
   Button,
   HelperText,
@@ -12,6 +13,8 @@ import {
 } from 'react-native-paper';
 import InAppBrowser from 'react-native-inappbrowser-reborn'
 import { showMessage, hideMessage } from 'react-native-flash-message';
+import { styles } from '../../components/styles'
+import I18n from "../../components/i18n";
 
 export default class HomeView extends Component<Props> {
   constructor(props) {
@@ -19,21 +22,45 @@ export default class HomeView extends Component<Props> {
     this.state = {};
   }
 
-  openLink = async () => {
+  _onSearch = () => {
+    Alert.alert(
+      '',
+      'ทดลอง',
+      [
+        {
+          text: I18n.t('button.ok')
+        }
+      ],
+      { cancelable: false }
+    );
+  }
+
+  headerApp = () => {
+    return (
+      <Appbar.Header style={styles.backgroundBlue}>
+        <Appbar.Content
+          title='Home'
+        />
+        <Appbar.Action icon='search' onPress={this._onSearch} />
+      </Appbar.Header>
+    );
+  }
+
+  openInAppBrowser = async () => {
     try {
       const url = 'https://www.google.com'
       if (await InAppBrowser.isAvailable()) {
         const result = await InAppBrowser.open(url, {
           // iOS Properties
           dismissButtonStyle: 'cancel',
-          preferredBarTintColor: '#453AA4',
+          preferredBarTintColor: '#278EF5',
           preferredControlTintColor: 'white',
           readerMode: false,
           animated: true,
           modalEnabled: true,
           // Android Properties
           showTitle: true,
-          toolbarColor: '#6200EE',
+          toolbarColor: '#278EF5',
           secondaryToolbarColor: 'black',
           enableUrlBarHiding: true,
           enableDefaultShare: true,
@@ -60,6 +87,7 @@ export default class HomeView extends Component<Props> {
   render() {
     return (
       <View>
+        {this.headerApp()}
         <StatusBar barStyle='light-content' />
         <Button
           onPress={() => {
@@ -73,7 +101,7 @@ export default class HomeView extends Component<Props> {
           color='#841584'
         />
         <Text>Home</Text>
-        <Button onPress={this.openLink}>Test</Button>
+        <Button onPress={this.openInAppBrowser}>Test</Button>
         <TextInput
           style={{ backgroundColor: '#FFFFFF' }}
           label='Email'

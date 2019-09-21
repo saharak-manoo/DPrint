@@ -4,6 +4,7 @@ import {
   Text,
 } from 'react-native-paper';
 import HomeView from '../Home/HomeView';
+import { styles } from '../../components/styles'
 
 const AlbumsRoute = () => <Text>Albums</Text>;
 const RecentsRoute = () => <Text>Recents</Text>;
@@ -14,9 +15,10 @@ export default class NavigatorView extends Component {
   state = {
     index: 0,
     routes: [
-      { key: 'home', title: 'Home', icon: 'home' },
+      { key: 'home', title: 'Home', icon: 'home', color: '#278EF5' },
       { key: 'add', title: 'Add', icon: 'add' },
       { key: 'recents', title: 'Recents', icon: 'history' },
+      { key: 'user', title: 'User', icon: 'people' },
     ],
   };
 
