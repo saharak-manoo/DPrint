@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 import {
   View,
   Alert,
+  StatusBar
 } from 'react-native';
 import {
   BottomNavigation,
   Text,
-  Button
+  Button,
+  HelperText,
+  TextInput
 } from 'react-native-paper';
 import InAppBrowser from 'react-native-inappbrowser-reborn'
 import { showMessage, hideMessage } from 'react-native-flash-message';
@@ -20,6 +23,7 @@ export default class NavigatorView extends Component {
   MusicRoute = () => {
     return (
       <View>
+        <StatusBar barStyle="light-content" />
         <Button
           onPress={() => {
             /* HERE WE GONE SHOW OUR FIRST MESSAGE */
@@ -34,6 +38,15 @@ export default class NavigatorView extends Component {
         />
         <Text>Musicdd</Text>
         <Button onPress={this.openLink}>Test</Button>
+        <TextInput
+          style={{ backgroundColor: '#FFFFFF' }}
+          label="Email"
+        />
+        <HelperText
+          type="error"
+        >
+          Email address is invalid!
+        </HelperText>
       </View>
     );
   }
@@ -96,10 +109,12 @@ export default class NavigatorView extends Component {
   });
 
   render() {
-    return (<BottomNavigation
-      navigationState={this.state}
-      onIndexChange={this._handleIndexChange}
-      renderScene={this._renderScene}
-    />);
+    return (
+      <BottomNavigation
+        navigationState={this.state}
+        onIndexChange={this._handleIndexChange}
+        renderScene={this._renderScene}
+      />
+    );
   }
 }
