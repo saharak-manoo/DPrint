@@ -38,8 +38,6 @@ export default class HomeView extends Component<Props> {
           enableUrlBarHiding: true,
           enableDefaultShare: true,
           forceCloseOnRedirection: false,
-          // Specify full animation resource identifier(package:anim/name)
-          // or only resource name(in case of animation bundled with app).
           animations: {
             startEnter: 'slide_in_right',
             startExit: 'slide_out_left',
@@ -65,7 +63,6 @@ export default class HomeView extends Component<Props> {
         <StatusBar barStyle='light-content' />
         <Button
           onPress={() => {
-            /* HERE WE GONE SHOW OUR FIRST MESSAGE */
             showMessage({
               message: 'Hello World',
               description: 'This is our second message',
@@ -75,7 +72,7 @@ export default class HomeView extends Component<Props> {
           title='Request Details'
           color='#841584'
         />
-        <Text>Musicdd</Text>
+        <Text>Home</Text>
         <Button onPress={this.openLink}>Test</Button>
         <TextInput
           style={{ backgroundColor: '#FFFFFF' }}
