@@ -16,7 +16,7 @@ import { showMessage, hideMessage } from 'react-native-flash-message';
 import { styles } from '../../components/styles'
 import I18n from '../../components/i18n';
 
-export default class AppView extends Component<Props> {
+export default class AppGroupView extends Component<Props> {
   constructor(props) {
     super(props);
     this.state = {};

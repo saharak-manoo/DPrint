@@ -15,14 +15,16 @@ import InAppBrowser from 'react-native-inappbrowser-reborn'
 import { showMessage, hideMessage } from 'react-native-flash-message';
 import { styles } from '../../components/styles'
 import I18n from '../../components/i18n';
+import ActionButton from 'react-native-action-button';
 
 export default class HomeView extends Component<Props> {
   constructor(props) {
     super(props);
     this.state = {};
+    this.goToAddGroupView = this.goToAddGroupView.bind(this);
   }
 
-  _onSearch = () => {
+  onSearch = () => {
     Alert.alert(
       '',
       'ทดลอง',
@@ -41,7 +43,7 @@ export default class HomeView extends Component<Props> {
         <Appbar.Content
           title='Home'
         />
-        <Appbar.Action icon='search' onPress={this._onSearch} />
+        <Appbar.Action icon='search' onPress={this.onSearch} />
       </Appbar.Header>
     );
   }
@@ -84,9 +86,13 @@ export default class HomeView extends Component<Props> {
     }
   }
 
+  goToAddGroupView = () => {
+    this.props.navigation.navigate('AddGroup');
+  }
+
   render() {
     return (
-      <View>
+      <View style={{ flex: 1 }}>
         {this.headerApp()}
         <StatusBar barStyle='light-content' />
         <Button
@@ -111,6 +117,10 @@ export default class HomeView extends Component<Props> {
         >
           Email address is invalid!
         </HelperText>
+        <ActionButton
+          buttonColor='#17E87C'
+          onPress={this.goToAddGroupView}
+        />
       </View>
     );
   }
