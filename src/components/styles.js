@@ -35,12 +35,11 @@ export const styles = StyleSheet.create({
   },
 
   card: {
-    alignItems: 'center',
     justifyContent: 'center',
     marginTop: 10,
     height: (height / 5),
     width: (width / 1.1),
     borderRadius: 13,
-    flexDirection: 'row'
+    backgroundColor: '#FFF'
   },
 });

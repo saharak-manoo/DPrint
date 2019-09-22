@@ -32,7 +32,28 @@ export default class HomeView extends Component<Props> {
   }
 
   componentWillMount = () => {
-    this.state.groups = [{ name: 'Netfilx' }, { name: 'Spotify' }, { name: 'Disney +' }, { name: 'Apple TV +' }, { name: 'Apple Arcade' }]
+    this.state.groups = [
+      {
+        name: 'Netfilx',
+        color: '#F81A4C',
+      },
+      {
+        name: 'Spotify',
+        color: '#41FE47',
+      },
+      {
+        name: 'Disney +',
+        color: '#4175FE',
+      },
+      {
+        name: 'Apple TV +',
+        color: '#41FEF5',
+      },
+      {
+        name: 'Apple Arcade',
+        color: '#FD7730',
+      }
+    ]
   };
 
   onSearch = () => {
@@ -117,11 +138,16 @@ export default class HomeView extends Component<Props> {
         renderItem={({ item, index }) => {
           return (
             <View key={index} style={styles.card}>
-              <View style={{ width: 50, height: 50, backgroundColor: '#FB3718' }}>
-                <Text>{item.name}</Text>
+              <View style={{
+                backgroundColor: item.color,
+                flex: 1,
+                alignItems: 'stretch',
+                borderTopLeftRadius: 12,
+                borderTopRightRadius: 12
+              }}>
+                <Text style={{ fontSize: 30, margin: 10 }}>{item.name}</Text>
               </View>
-              <View style={{ width: 50, height: 50, backgroundColor: '#F4F3F3' }}>
-                <Text>{item.name}</Text>
+              <View style={{ flex: 2 }}>
               </View>
             </View>
           );
@@ -134,7 +160,7 @@ export default class HomeView extends Component<Props> {
 
   render() {
     return (
-      <View style={{ flex: 1 }}>
+      <View style={{ flex: 1, backgroundColor: '#D2D2D2' }}>
         {this.headerApp()}
         <StatusBar barStyle='light-content' />
         <View style={styles.listCard}>
