@@ -1,4 +1,4 @@
-package com.dprint;
+package com.familyplan;
 
 import android.app.Application;
 import android.util.Log;

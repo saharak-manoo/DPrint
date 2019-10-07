@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* DPrintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DPrintTests.m */; };
+		00E356F31AD99517003FC87E /* FamilyPlanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FamilyPlanTests.m */; };
 		06002D9966AA484BB5497367 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B327349B398D464F93E4AB29 /* AntDesign.ttf */; };
 		065EFE40AC144D13B57EC053 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AC36F04F6BE4C7089C67AA1 /* Feather.ttf */; };
-		09B90AF293BE8FDBA50F3691 /* libPods-DPrint-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F2A1845C763DADD71890AB /* libPods-DPrint-tvOS.a */; };
+		09B90AF293BE8FDBA50F3691 /* libPods-FamilyPlan-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F2A1845C763DADD71890AB /* libPods-FamilyPlan-tvOS.a */; };
 		0E7CFFE82E274C3F84F3919F /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2462B42B0FF412D98F34DE9 /* MaterialIcons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
@@ -20,21 +20,21 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* DPrintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DPrintTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* FamilyPlanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FamilyPlanTests.m */; };
 		322D1EC2992B4985A7E99285 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41DD78F78A8E458CA75542AB /* Zocial.ttf */; };
 		471813040EA84982961065CC /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA36DEEA3F024541BBD16496 /* FontAwesome.ttf */; };
 		70D88D0DE8D34668B38E3BE2 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76429BD176894B1EBC4040D0 /* Fontisto.ttf */; };
 		7FFBAEB9916F4D5984642FF8 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AED173C3ECB4802B55F2FAD /* Entypo.ttf */; };
 		8088B2E374104B65A96D5DA5 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86F5F7280DAD4DD896ACACB3 /* Foundation.ttf */; };
-		99DEF5C2391443406F1F21CB /* libPods-DPrint-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B2FDEAEE9FD3EB2C3485B7 /* libPods-DPrint-tvOSTests.a */; };
+		99DEF5C2391443406F1F21CB /* libPods-FamilyPlan-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B2FDEAEE9FD3EB2C3485B7 /* libPods-FamilyPlan-tvOSTests.a */; };
 		AF739FDBC47741C5A80F450B /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B6646E3BB8A4F80AC24683B /* FontAwesome5_Brands.ttf */; };
 		B16176284E654D33B90C3C9E /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DB1BD3B9114191B9FFD063 /* Octicons.ttf */; };
 		B3407628CCBE4B4882CC0352 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47238DA3067040099701019C /* SimpleLineIcons.ttf */; };
 		CD9B1837687B42788353B56F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CDFCB9D8975409EB857BC9A /* FontAwesome5_Regular.ttf */; };
 		DB4E7736DBEA498D9458D73F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9764ED617F24270A0A105A4 /* Ionicons.ttf */; };
-		E5C26C639FAB695CB75191D4 /* libPods-DPrintTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C843FF32F1397A5B9F2B8B3 /* libPods-DPrintTests.a */; };
+		E5C26C639FAB695CB75191D4 /* libPods-FamilyPlanTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C843FF32F1397A5B9F2B8B3 /* libPods-FamilyPlanTests.a */; };
 		E87F93443A92442983E648D2 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C39A6E08F904EDB99F97DF8 /* FontAwesome5_Solid.ttf */; };
-		F0987E05CC75447154F8DB40 /* libPods-DPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2578A4AFD0ACF3E18497C926 /* libPods-DPrint.a */; };
+		F0987E05CC75447154F8DB40 /* libPods-FamilyPlan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2578A4AFD0ACF3E18497C926 /* libPods-FamilyPlan.a */; };
 		FA783E401049479C865C989C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E84091DFD0034DE7ABCC0A26 /* EvilIcons.ttf */; };
 /* End PBXBuildFile section */
 
@@ -44,61 +44,61 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = DPrint;
+			remoteInfo = FamilyPlan;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "DPrint-tvOS";
+			remoteInfo = "FamilyPlan-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* DPrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* FamilyPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilyPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* DPrintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPrintTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* DPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DPrint/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DPrint/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* FamilyPlanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyPlanTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* FamilyPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FamilyPlan/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FamilyPlan/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DPrint/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DPrint/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DPrint/main.m; sourceTree = "<group>"; };
-		17F2A1845C763DADD71890AB /* libPods-DPrint-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DPrint-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2578A4AFD0ACF3E18497C926 /* libPods-DPrint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DPrint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FamilyPlan/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FamilyPlan/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FamilyPlan/main.m; sourceTree = "<group>"; };
+		17F2A1845C763DADD71890AB /* libPods-FamilyPlan-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FamilyPlan-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2578A4AFD0ACF3E18497C926 /* libPods-FamilyPlan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FamilyPlan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AED173C3ECB4802B55F2FAD /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* DPrint-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DPrint-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* DPrint-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DPrint-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		361E0AF24EC9C5FAFBAA6372 /* Pods-DPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrint.release.xcconfig"; path = "Target Support Files/Pods-DPrint/Pods-DPrint.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* FamilyPlan-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FamilyPlan-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* FamilyPlan-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FamilyPlan-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E0AF24EC9C5FAFBAA6372 /* Pods-FamilyPlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyPlan.release.xcconfig"; path = "Target Support Files/Pods-FamilyPlan/Pods-FamilyPlan.release.xcconfig"; sourceTree = "<group>"; };
 		3C39A6E08F904EDB99F97DF8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		3CDFCB9D8975409EB857BC9A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		41DD78F78A8E458CA75542AB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		47238DA3067040099701019C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		4BDA4F658179CA707A4F9009 /* Pods-DPrint-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrint-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DPrint-tvOSTests/Pods-DPrint-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		61B2FDEAEE9FD3EB2C3485B7 /* libPods-DPrint-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DPrint-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62860FB7E79C5B745743A156 /* Pods-DPrintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrintTests.debug.xcconfig"; path = "Target Support Files/Pods-DPrintTests/Pods-DPrintTests.debug.xcconfig"; sourceTree = "<group>"; };
-		680AD918619E395B600512BE /* Pods-DPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrint.debug.xcconfig"; path = "Target Support Files/Pods-DPrint/Pods-DPrint.debug.xcconfig"; sourceTree = "<group>"; };
-		6A82266E47B0AA161683EEDD /* Pods-DPrint-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrint-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DPrint-tvOSTests/Pods-DPrint-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDA4F658179CA707A4F9009 /* Pods-FamilyPlan-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyPlan-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-FamilyPlan-tvOSTests/Pods-FamilyPlan-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		61B2FDEAEE9FD3EB2C3485B7 /* libPods-FamilyPlan-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FamilyPlan-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62860FB7E79C5B745743A156 /* Pods-FamilyPlanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyPlanTests.debug.xcconfig"; path = "Target Support Files/Pods-FamilyPlanTests/Pods-FamilyPlanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		680AD918619E395B600512BE /* Pods-FamilyPlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyPlan.debug.xcconfig"; path = "Target Support Files/Pods-FamilyPlan/Pods-FamilyPlan.debug.xcconfig"; sourceTree = "<group>"; };
+		6A82266E47B0AA161683EEDD /* Pods-FamilyPlan-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyPlan-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FamilyPlan-tvOSTests/Pods-FamilyPlan-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		76429BD176894B1EBC4040D0 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		7AC36F04F6BE4C7089C67AA1 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		86F5F7280DAD4DD896ACACB3 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		8B6646E3BB8A4F80AC24683B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		8C695CE39F9CCC907904F325 /* Pods-DPrint-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrint-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DPrint-tvOS/Pods-DPrint-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		9C843FF32F1397A5B9F2B8B3 /* libPods-DPrintTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DPrintTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C695CE39F9CCC907904F325 /* Pods-FamilyPlan-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyPlan-tvOS.release.xcconfig"; path = "Target Support Files/Pods-FamilyPlan-tvOS/Pods-FamilyPlan-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		9C843FF32F1397A5B9F2B8B3 /* libPods-FamilyPlanTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FamilyPlanTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2462B42B0FF412D98F34DE9 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		B327349B398D464F93E4AB29 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		B6987C0710934F1984F0AEDA /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		B9764ED617F24270A0A105A4 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		D54AE653137BD6470CFC1194 /* Pods-DPrintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrintTests.release.xcconfig"; path = "Target Support Files/Pods-DPrintTests/Pods-DPrintTests.release.xcconfig"; sourceTree = "<group>"; };
+		D54AE653137BD6470CFC1194 /* Pods-FamilyPlanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyPlanTests.release.xcconfig"; path = "Target Support Files/Pods-FamilyPlanTests/Pods-FamilyPlanTests.release.xcconfig"; sourceTree = "<group>"; };
 		E2DB1BD3B9114191B9FFD063 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		E84091DFD0034DE7ABCC0A26 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		EA36DEEA3F024541BBD16496 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F9BBB04F66672A19F6A320A9 /* Pods-DPrint-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrint-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DPrint-tvOS/Pods-DPrint-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F9BBB04F66672A19F6A320A9 /* Pods-FamilyPlan-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyPlan-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-FamilyPlan-tvOS/Pods-FamilyPlan-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5C26C639FAB695CB75191D4 /* libPods-DPrintTests.a in Frameworks */,
+				E5C26C639FAB695CB75191D4 /* libPods-FamilyPlanTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0987E05CC75447154F8DB40 /* libPods-DPrint.a in Frameworks */,
+				F0987E05CC75447154F8DB40 /* libPods-FamilyPlan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B90AF293BE8FDBA50F3691 /* libPods-DPrint-tvOS.a in Frameworks */,
+				09B90AF293BE8FDBA50F3691 /* libPods-FamilyPlan-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,20 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99DEF5C2391443406F1F21CB /* libPods-DPrint-tvOSTests.a in Frameworks */,
+				99DEF5C2391443406F1F21CB /* libPods-FamilyPlan-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* DPrintTests */ = {
+		00E356EF1AD99517003FC87E /* FamilyPlanTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* DPrintTests.m */,
+				00E356F21AD99517003FC87E /* FamilyPlanTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = DPrintTests;
+			path = FamilyPlanTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -177,7 +177,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* DPrint */ = {
+		13B07FAE1A68108700A75B9A /* FamilyPlan */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -188,7 +188,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = DPrint;
+			name = FamilyPlan;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -196,10 +196,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				2578A4AFD0ACF3E18497C926 /* libPods-DPrint.a */,
-				17F2A1845C763DADD71890AB /* libPods-DPrint-tvOS.a */,
-				61B2FDEAEE9FD3EB2C3485B7 /* libPods-DPrint-tvOSTests.a */,
-				9C843FF32F1397A5B9F2B8B3 /* libPods-DPrintTests.a */,
+				2578A4AFD0ACF3E18497C926 /* libPods-FamilyPlan.a */,
+				17F2A1845C763DADD71890AB /* libPods-FamilyPlan-tvOS.a */,
+				61B2FDEAEE9FD3EB2C3485B7 /* libPods-FamilyPlan-tvOSTests.a */,
+				9C843FF32F1397A5B9F2B8B3 /* libPods-FamilyPlanTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,9 +214,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* DPrint */,
+				13B07FAE1A68108700A75B9A /* FamilyPlan */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* DPrintTests */,
+				00E356EF1AD99517003FC87E /* FamilyPlanTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				EDD613AC19357985C86A1DC9 /* Pods */,
@@ -230,10 +230,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* DPrint.app */,
-				00E356EE1AD99517003FC87E /* DPrintTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* DPrint-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* DPrint-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* FamilyPlan.app */,
+				00E356EE1AD99517003FC87E /* FamilyPlanTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* FamilyPlan-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* FamilyPlan-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,14 +241,14 @@
 		EDD613AC19357985C86A1DC9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				680AD918619E395B600512BE /* Pods-DPrint.debug.xcconfig */,
-				361E0AF24EC9C5FAFBAA6372 /* Pods-DPrint.release.xcconfig */,
-				F9BBB04F66672A19F6A320A9 /* Pods-DPrint-tvOS.debug.xcconfig */,
-				8C695CE39F9CCC907904F325 /* Pods-DPrint-tvOS.release.xcconfig */,
-				6A82266E47B0AA161683EEDD /* Pods-DPrint-tvOSTests.debug.xcconfig */,
-				4BDA4F658179CA707A4F9009 /* Pods-DPrint-tvOSTests.release.xcconfig */,
-				62860FB7E79C5B745743A156 /* Pods-DPrintTests.debug.xcconfig */,
-				D54AE653137BD6470CFC1194 /* Pods-DPrintTests.release.xcconfig */,
+				680AD918619E395B600512BE /* Pods-FamilyPlan.debug.xcconfig */,
+				361E0AF24EC9C5FAFBAA6372 /* Pods-FamilyPlan.release.xcconfig */,
+				F9BBB04F66672A19F6A320A9 /* Pods-FamilyPlan-tvOS.debug.xcconfig */,
+				8C695CE39F9CCC907904F325 /* Pods-FamilyPlan-tvOS.release.xcconfig */,
+				6A82266E47B0AA161683EEDD /* Pods-FamilyPlan-tvOSTests.debug.xcconfig */,
+				4BDA4F658179CA707A4F9009 /* Pods-FamilyPlan-tvOSTests.release.xcconfig */,
+				62860FB7E79C5B745743A156 /* Pods-FamilyPlanTests.debug.xcconfig */,
+				D54AE653137BD6470CFC1194 /* Pods-FamilyPlanTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -256,9 +256,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* DPrintTests */ = {
+		00E356ED1AD99517003FC87E /* FamilyPlanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DPrintTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FamilyPlanTests" */;
 			buildPhases = (
 				985B8DBC8CC91E2F5E830AF0 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -270,14 +270,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = DPrintTests;
-			productName = DPrintTests;
-			productReference = 00E356EE1AD99517003FC87E /* DPrintTests.xctest */;
+			name = FamilyPlanTests;
+			productName = FamilyPlanTests;
+			productReference = 00E356EE1AD99517003FC87E /* FamilyPlanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* DPrint */ = {
+		13B07F861A680F5B00A75B9A /* FamilyPlan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DPrint" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FamilyPlan" */;
 			buildPhases = (
 				70EF4D3A35911379CFEB7AA4 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -291,14 +291,14 @@
 			);
 			dependencies = (
 			);
-			name = DPrint;
-			productName = DPrint;
-			productReference = 13B07F961A680F5B00A75B9A /* DPrint.app */;
+			name = FamilyPlan;
+			productName = FamilyPlan;
+			productReference = 13B07F961A680F5B00A75B9A /* FamilyPlan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* DPrint-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* FamilyPlan-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DPrint-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "FamilyPlan-tvOS" */;
 			buildPhases = (
 				216E433B9A8AB3BAA24E2C29 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -311,14 +311,14 @@
 			);
 			dependencies = (
 			);
-			name = "DPrint-tvOS";
-			productName = "DPrint-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* DPrint-tvOS.app */;
+			name = "FamilyPlan-tvOS";
+			productName = "FamilyPlan-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* FamilyPlan-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* DPrint-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* FamilyPlan-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DPrint-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "FamilyPlan-tvOSTests" */;
 			buildPhases = (
 				337FFFCDF465397EF897A7CB /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -330,9 +330,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "DPrint-tvOSTests";
-			productName = "DPrint-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* DPrint-tvOSTests.xctest */;
+			name = "FamilyPlan-tvOSTests";
+			productName = "FamilyPlan-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* FamilyPlan-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -362,7 +362,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DPrint" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FamilyPlan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -376,10 +376,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* DPrint */,
-				00E356ED1AD99517003FC87E /* DPrintTests */,
-				2D02E47A1E0B4A5D006451C7 /* DPrint-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* DPrint-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* FamilyPlan */,
+				00E356ED1AD99517003FC87E /* FamilyPlanTests */,
+				2D02E47A1E0B4A5D006451C7 /* FamilyPlan-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* FamilyPlan-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -464,7 +464,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DPrint-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FamilyPlan-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -500,7 +500,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DPrint-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FamilyPlan-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DPrint-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FamilyPlan-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -535,7 +535,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DPrint/Pods-DPrint-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FamilyPlan/Pods-FamilyPlan-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -574,7 +574,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DPrint/Pods-DPrint-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FamilyPlan/Pods-FamilyPlan-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		985B8DBC8CC91E2F5E830AF0 /* [CP] Check Pods Manifest.lock */ = {
@@ -592,7 +592,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DPrintTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FamilyPlanTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -644,7 +644,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* DPrintTests.m in Sources */,
+				00E356F31AD99517003FC87E /* FamilyPlanTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,7 +670,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* DPrintTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* FamilyPlanTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,12 +679,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* DPrint */;
+			target = 13B07F861A680F5B00A75B9A /* FamilyPlan */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* DPrint-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* FamilyPlan-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -696,7 +696,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = DPrint;
+			path = FamilyPlan;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -704,14 +704,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62860FB7E79C5B745743A156 /* Pods-DPrintTests.debug.xcconfig */;
+			baseConfigurationReference = 62860FB7E79C5B745743A156 /* Pods-FamilyPlanTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = DPrintTests/Info.plist;
+				INFOPLIST_FILE = FamilyPlanTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -721,17 +721,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPrint.app/DPrint";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyPlan.app/FamilyPlan";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D54AE653137BD6470CFC1194 /* Pods-DPrintTests.release.xcconfig */;
+			baseConfigurationReference = D54AE653137BD6470CFC1194 /* Pods-FamilyPlanTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = DPrintTests/Info.plist;
+				INFOPLIST_FILE = FamilyPlanTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -741,19 +741,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPrint.app/DPrint";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyPlan.app/FamilyPlan";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 680AD918619E395B600512BE /* Pods-DPrint.debug.xcconfig */;
+			baseConfigurationReference = 680AD918619E395B600512BE /* Pods-FamilyPlan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = NF2C5Y86PF;
-				INFOPLIST_FILE = DPrint/Info.plist;
+				INFOPLIST_FILE = FamilyPlan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -761,19 +761,19 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = DPrint;
+				PRODUCT_NAME = FamilyPlan;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 361E0AF24EC9C5FAFBAA6372 /* Pods-DPrint.release.xcconfig */;
+			baseConfigurationReference = 361E0AF24EC9C5FAFBAA6372 /* Pods-FamilyPlan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NF2C5Y86PF;
-				INFOPLIST_FILE = DPrint/Info.plist;
+				INFOPLIST_FILE = FamilyPlan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -781,14 +781,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = DPrint;
+				PRODUCT_NAME = FamilyPlan;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9BBB04F66672A19F6A320A9 /* Pods-DPrint-tvOS.debug.xcconfig */;
+			baseConfigurationReference = F9BBB04F66672A19F6A320A9 /* Pods-FamilyPlan-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -799,14 +799,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "DPrint-tvOS/Info.plist";
+				INFOPLIST_FILE = "FamilyPlan-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.DPrint-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.FamilyPlan-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -816,7 +816,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C695CE39F9CCC907904F325 /* Pods-DPrint-tvOS.release.xcconfig */;
+			baseConfigurationReference = 8C695CE39F9CCC907904F325 /* Pods-FamilyPlan-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -827,14 +827,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "DPrint-tvOS/Info.plist";
+				INFOPLIST_FILE = "FamilyPlan-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.DPrint-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.FamilyPlan-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -844,7 +844,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A82266E47B0AA161683EEDD /* Pods-DPrint-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6A82266E47B0AA161683EEDD /* Pods-FamilyPlan-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -854,24 +854,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "DPrint-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "FamilyPlan-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.DPrint-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.FamilyPlan-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPrint-tvOS.app/DPrint-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyPlan-tvOS.app/FamilyPlan-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BDA4F658179CA707A4F9009 /* Pods-DPrint-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 4BDA4F658179CA707A4F9009 /* Pods-FamilyPlan-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -881,17 +881,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "DPrint-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "FamilyPlan-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.DPrint-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.FamilyPlan-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPrint-tvOS.app/DPrint-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyPlan-tvOS.app/FamilyPlan-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -998,7 +998,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DPrintTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FamilyPlanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1007,7 +1007,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DPrint" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FamilyPlan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1016,7 +1016,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DPrint-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "FamilyPlan-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1025,7 +1025,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DPrint-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "FamilyPlan-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1034,7 +1034,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DPrint" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FamilyPlan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
