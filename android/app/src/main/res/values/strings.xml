@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">DPrint</string>
+    <string name="facebook_app_id">2240209339543317</string>
+    <string name="fb_login_protocol_scheme">fb2240209339543317</string>
+    <string name="line_channel_id" translatable="false">1599243360</string>
 </resources>

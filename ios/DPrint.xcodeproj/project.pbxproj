@@ -36,6 +36,7 @@
 		E87F93443A92442983E648D2 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C39A6E08F904EDB99F97DF8 /* FontAwesome5_Solid.ttf */; };
 		F0987E05CC75447154F8DB40 /* libPods-DPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2578A4AFD0ACF3E18497C926 /* libPods-DPrint.a */; };
 		FA783E401049479C865C989C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E84091DFD0034DE7ABCC0A26 /* EvilIcons.ttf */; };
+		464638CD297240A98B105A4D /* libLineLoginManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4341AB1CD950474BB38FB3A6 /* libLineLoginManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F9BBB04F66672A19F6A320A9 /* Pods-DPrint-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPrint-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DPrint-tvOS/Pods-DPrint-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4D055DB1F9234DFF85092A3F /* LineLoginManager.xcodeproj */ = {isa = PBXFileReference; name = "LineLoginManager.xcodeproj"; path = "../node_modules/react-native-line-sdk/ios/LineLoginManager.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		4341AB1CD950474BB38FB3A6 /* libLineLoginManager.a */ = {isa = PBXFileReference; name = "libLineLoginManager.a"; path = "libLineLoginManager.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0987E05CC75447154F8DB40 /* libPods-DPrint.a in Frameworks */,
+				464638CD297240A98B105A4D /* libLineLoginManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +211,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				4D055DB1F9234DFF85092A3F /* LineLoginManager.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -722,6 +727,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPrint.app/DPrint";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 			};
 			name = Debug;
 		};
@@ -742,6 +755,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPrint.app/DPrint";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 			};
 			name = Release;
 		};
@@ -763,6 +784,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = DPrint;
 				VERSIONING_SYSTEM = "apple-generic";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 			};
 			name = Debug;
 		};
@@ -783,6 +808,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = DPrint;
 				VERSIONING_SYSTEM = "apple-generic";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 			};
 			name = Release;
 		};
@@ -811,6 +840,14 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 			};
 			name = Debug;
 		};
@@ -839,6 +876,14 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 			};
 			name = Release;
 		};
@@ -866,6 +911,14 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPrint-tvOS.app/DPrint-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 			};
 			name = Debug;
 		};
@@ -893,6 +946,14 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPrint-tvOS.app/DPrint-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-line-sdk/ios/**",
+				);
 			};
 			name = Release;
 		};

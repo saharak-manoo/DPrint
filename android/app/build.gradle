@@ -188,6 +188,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-line-sdk')
     implementation project(':react-native-reanimated')
     implementation project(':react-native-gesture-handler')
     implementation project(':react-native-inappbrowser-reborn')
@@ -210,6 +211,14 @@ dependencies {
 task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
+}
+
+allprojects {
+    repositories {
+         flatDir {
+            dirs 'libs', './libs'
+        }
+    }
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
